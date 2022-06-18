@@ -15,6 +15,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 10rem;
+    position: relative;
 }
 
 .header {
@@ -90,12 +91,14 @@
 
 .unlimited {
     padding-left: 5rem;
-    PA
 }
 
 .bounty {
-    /* width: 608px;
-    height: 486px; */
+    width: 608px;
+    height: 486px;
+    /* position: absolute; */
+    right: 1rem;
+
 }
 
 .enter-email {
@@ -190,6 +193,8 @@ figcaption {
 .cartoon {
     display: flex;
     margin-bottom: 9.316rem;
+    justify-content: end;
+    margin-right: 5px;
 }
 
 .tech-life figure img {}
@@ -249,31 +254,40 @@ figcaption {
 }
 .pictures{
     display: flex;
-    padding: 3rem;
-    margin-bottom: 2rem;
+    /* padding: 3rem;
+    margin-bottom: 2rem; */
     
     
 }
 .video-div{
+    padding: 1rem;
+    /* overflow-y: hidden; */
 
 }
 .streams{
     font-family:'Open Sans' ;
-    margin-left: 4rem;
-    font-weight: 300;
-    margin-top: rem
+    font-weight: 600;
+    margin-left: 8rem;
+    /* margin-top: 2rem; */
+    font-size: 30px;
+    line-height: 40.85px;
+
 }
 .view-all{
     color: red;
     margin-left: 1rem;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.24px;
 }
 
 .line1{
+    margin-left: 8rem;
     
 }
 
 .doctor{
-    position: relative;
+
     top: 7rem;
     
     
@@ -322,13 +336,14 @@ figcaption {
 
 .video-bg{
     width: 100%;
-    height: 663px;
+    /* height: 663px; */
     
 }
 .video-sec{
     position: relative;
     width: 80%;
     margin: auto;
+    margin-top: 3rem;
 }
 
 .video-header{
@@ -349,30 +364,195 @@ figcaption {
     right: .5em;
 }
 .dance{
-    margin-left: 8rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .watch{
-    position: relative;
     font-family: 'Open Sans';
     color: #F3F3F3;
     bottom: 39rem;
     padding: 2rem;
+    font-size: 39px;
+    line-height: 47px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
 
 }
 .watch-on{
     font-family: 'Open Sans';
-    position: relative;
     bottom:39rem;
     color: #F3F3F3;
     padding: 2rem;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
 }
 .get-started1{
     background-color: #0FB820;
     width: 272px;
-    height: 42px;
+    height: 52px;
     text-align: center;
-    
+    margin-top: 5rem;
+    border-radius: 5px;
+    font-family: 'open Sans';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;       
 }
 .tab{
+    position:absolute;
+    right: 2rem;
     
+    bottom: 1rem;   
+    width: 50%;
+}
+.view-all{
+    color: red
+    font-family: 'Open Sans'; 
+    margin-top: .5rem;   
+}
+.trending-view{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 5rem;
+
+}
+.want-access{
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #202020;
+    text-align: center; 
+}
+
+.rec-32{
+    padding: 0px;
+    
+
+}
+.input1{
+    display: flex;
+    margin-left: 20rem;
+    padding-bottom: 2rem;
+    border-radius: 0px 8px 8px 0px;
+
+}
+
+.email-down{
+    width: 524px;
+    height: 46px;
+    border-radius: 8px;
+    background-color: #E2E2E2;
+    text-indent: 1rem;
+    
+}
+.get-start{
+    width: 155px;
+    height: 46px;
+    background-color: #0FB820;
+    border-radius: 0xp 8xp 8xp 0px;
+    position: absolute;
+    margin-left:368px;
+}
+.last{
+    background-color: #202020;
+    
+}
+.last-flex{
+    display: flex;
+    color: white;
+    justify-content:space-between;
+    font-family: 'open sans';
+    padding: 2rem 0rem 2rem 3rem;
+    
+}
+.last-input{
+    width: 337px;
+    height: 39px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    text-indent: 1rem;
+}
+.last-button{
+    width: 103px;
+    height: 27px;
+    border-radius: 2px;
+    background-color: #0FB820;     
+}
+.black-rec{
+    background-color: #202020;
+    position: relative;
+}
+.logo-small{
+    color: #0FB820;
+
+}
+.last-class{
+    background-color: white;
+    margin-right: 1rem;
+    padding-right: .5rem;
+
+}
+.want-un{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+
+}
+
+
+.section-2{
+    margin-left: 68px;
+}
+.only-stream{
+    margin-top: 3rem;
+}
+.trending{
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40.85px;
+    color: #202020;
+    
+}
+.push{
+    margin-left: 5rem;
+}
+.groups{
+    margin-bottom: 7rem;
+}
+.last-line{
+    margin-top: 4rem;
+    width: 95%;
+    height: 1px;
+    background-color:white;
+    margin-left: 3rem;
+}
+.last-icon{
+    background-color: #202020;
+    color:#FFFFFF;
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+    padding: 1rem;
+    margin-right: ;
+}
+.push{
+    border:solid 1px #0FB820;
+    width: 90px;
+    height: 4px;
+    background-color: #0FB820;
+}
+.line1{
+    border:solid 1px #0FB820;
+    width: 90px;
+    height: 4px;
+    background-color: #0FB820;
+}
+.line-1{
+    border:solid 1px #0FB820;
+    width: 90px;
+    height: 4px;
+    background-color: #0FB820;
 }
